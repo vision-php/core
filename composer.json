@@ -1,0 +1,29 @@
+
+{
+    "name": "vision/vision",
+    "description": "Vision UI Framework",
+    "keywords": ["ui", "ux", "gui", "widgets", "forms"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "homepage": "http://www.linkorb.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vision/core/issues"
+    },
+    "require-dev": {
+        "symfony/console": "~2.4",
+        "silex/silex": "~1.2"
+    },
+    "bin": ["bin/vision"],
+    "autoload": {
+        "psr-4": {
+            "Vision\\": "src/"
+        }
+    }
+}
